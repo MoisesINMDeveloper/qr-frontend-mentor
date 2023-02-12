@@ -15,7 +15,7 @@ body {
 }
 
 .main__container {
-    height: 105vh;
+    height: 100vh;
 }
 
 .main__article {
@@ -30,6 +30,7 @@ body {
 .main__article--card {
     padding: 15px;
     border-radius: 10px;
+    height: 67vh;
     background-color: #fff;
 }
 
