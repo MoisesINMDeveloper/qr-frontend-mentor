@@ -5,6 +5,9 @@
     --text-color: #9b9ea3;
     --text-color2: #283143;
 }
+html{
+    font-size:62.5%;
+}
 
 body {
     box-sizing: border-box;
@@ -24,19 +27,18 @@ body {
     justify-content: center;
     margin: 0 auto;
     height: 100%;
-    max-width: 20rem;
+    max-width: 32rem;
 }
 
 .main__article--card {
-    padding: 0.938rem;
-    border-radius: .625rem;
-    height: 67vh;
+    padding: 1.5rem;
+    border-radius: 1rem;
     background-color: #fff;
 }
 
 .main__article--card img {
     width: 100%;
-    border-radius: .625rem;
+    border-radius: 1rem;
 }
 
 .article__card--text {
@@ -46,14 +48,14 @@ body {
 
 .article__card--text :first-child {
     text-align: center;
-    font-size: .125rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--text-color2);
 }
 
 .article__card--text :nth-child(2) {
     text-align: center;
-    font-size: .875rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--text-color);
 }
