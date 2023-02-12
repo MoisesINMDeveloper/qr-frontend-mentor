@@ -24,19 +24,19 @@ body {
     justify-content: center;
     margin: 0 auto;
     height: 100%;
-    max-width: 320px;
+    max-width: 20rem;
 }
 
 .main__article--card {
-    padding: 15px;
-    border-radius: 10px;
+    padding: 0.938rem;
+    border-radius: .625rem;
     height: 67vh;
     background-color: #fff;
 }
 
 .main__article--card img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: .625rem;
 }
 
 .article__card--text {
@@ -46,14 +46,14 @@ body {
 
 .article__card--text :first-child {
     text-align: center;
-    font-size: 18px;
+    font-size: .125rem;
     font-weight: 700;
     color: var(--text-color2);
 }
 
 .article__card--text :nth-child(2) {
     text-align: center;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
     color: var(--text-color);
 }
