@@ -10,7 +10,7 @@ const QrComponent = () => {
                     <div className="main__article--card">
                         <img src={codeQr} alt="Qr Code" />
                         <div className="article__card--text">
-                            <p>Improve your front-end skills by building projects</p>
+                            <h2>Improve your front-end skills by building projects</h2>
                             <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
                         </div>
                     </div>
